@@ -128,13 +128,13 @@ body {
   background: #fff;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.25);
 }
-.filter[open] .filter__heading {
+.filter[open] .filter_heading {
   color: #f16d7f;
 }
 .filter[open] path {
   fill: #f16d7f;
 }
-.filter__summary {
+.filter_summary {
   display: flex;
   align-items: center;
   gap: 11px;
@@ -146,7 +146,7 @@ body {
   font-size: 14px;
   color: #000;
 }
-.filter__item {
+.filter_item {
   margin: 16px;
 }
 
