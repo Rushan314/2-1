@@ -9,13 +9,25 @@ body{
  text-decoration: none;
 }
 
+summary {
+  display: block;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
 .a {
     text-decoration: none;
 }
 
 .filter-sort {
-   height: 132px;
+    height: 130px;
     position: relative;
+    padding-top: 40px;
+    box-sizing: border-box;
+    display: flex;
+    gap: $gapGrid;
 }
 
 .filter {
@@ -144,7 +156,11 @@ body{
 }
 }
 
-
+.sort {
+    position: absolute;
+    left: 690px;
+    top: 51px;
+}
 
 .breadcrumbs_link {
     font-style: normal;
