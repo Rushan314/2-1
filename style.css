@@ -169,7 +169,7 @@ body {
 .filter__link:hover {
   color: #f16d7f;
 }
-.filter_item[open] .filter_heading_item {
+.filter_item[open] .filter_heading {
   color: #f16d7f;
 }
 
