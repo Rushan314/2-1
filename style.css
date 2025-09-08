@@ -46,6 +46,16 @@ body {
    margin-left: auto;
 }
 
+
+#burger {
+  position: absolute;
+  left: -999999px;
+  visibility: hidden;
+}
+#burger:checked ~ nav {
+  display: none;
+}
+
 .nav {
   background: #fff;
   box-shadow: 3px 6px 30px 
