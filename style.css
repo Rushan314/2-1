@@ -33,14 +33,14 @@ body {
 }
 
 .header {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  position: relative;
-  color: #000;
+  background-color: #272525;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
 }
 
 .product-box {
@@ -91,7 +91,7 @@ body {
 }
 
 .top-head {
-    background: #ec4f64;
+    background: #000000;
     padding-top: 60px;
     padding-bottom: 60px;
     display: flex;
