@@ -1,9 +1,3 @@
-$colorselectsite: #f16d7f;
-$widthsite: 1140px;
-$backblock: #222;
-$thirdSite: ($widthsite - $gapGrid )  / 3;
-$textcolor: #000;
-$gapGrid: 30px;
 
 * {
     margin: 0;
@@ -110,3 +104,4 @@ body{
     font-weight: 700;
     color: $colorselectsite;
 }
+
