@@ -54,10 +54,11 @@ body {
   padding: 30px;
   box-sizing: border-box;
   position: absolute;
-  top: 80px;
-  right: -232px;
   z-index: 100;
   border-radius: 8px;
+  top: 100px;
+  right: 0;
+  transition: right 0.3s;
 }
 
 
