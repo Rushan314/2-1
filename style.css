@@ -42,6 +42,10 @@ body {
     position: relative;
 }
 
+.header-right {
+   margin-left: auto;
+}
+
 .product-box {
   display: flex;
   justify-content: center;
