@@ -211,8 +211,8 @@ body {
 
 .sort {
  padding-top: 12px;
-  display: flex;
-  gap: 12px;
+    display: flex;
+    gap: 16px;
 }
 
 .sort_details {
