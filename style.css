@@ -149,15 +149,7 @@ body {
 .filter__item {
   margin: 16px;
 }
-.filter__heading_item {
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  color: #6f6e6e;
-  padding: 8px 11px 11px 11px;
-  border-bottom: 1px solid #ebebeb;
-  border-left: 5px solid #f16d7f;
-}
+
 .filter__link-box {
   display: flex;
   flex-direction: column;
@@ -177,7 +169,7 @@ body {
 .filter__link:hover {
   color: #f16d7f;
 }
-.filter_item[open] .filter__heading_item {
+.filter_item[open] .filter_heading_item {
   color: #f16d7f;
 }
 
