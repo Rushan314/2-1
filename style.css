@@ -216,7 +216,7 @@ body {
 }
 
 .sort_details {
-  position: relative;
+  align-items: center;
 }
 
 .sort-heading {
