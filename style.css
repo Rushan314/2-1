@@ -210,9 +210,46 @@ body {
 }
 
 .sort {
+ padding-top: 12px;
+  display: flex;
+  gap: 12px;
+}
+
+.sort_details {
+  position: relative;
+}
+
+.sort-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 13px;
+}
+.sort-summary {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.sort-box {
+  background-color: #dddddd;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  padding: 7px 30px 11px 9px;
   position: absolute;
-  left: 690px;
-  top: 51px;
+  left: -9px;
+  top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.sort-check {
+  gap: 9px;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  color: #3d3d3d;
 }
 
 .filter-sort {
