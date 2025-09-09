@@ -1,0 +1,33 @@
+.parallax {
+  background-image: url("para.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body, html {
+  height: 100%;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  
+}
+.parallax {
+    background-attachment: scroll;
+  }
+
+.color {
+    color: blue;
+    background-color: aliceblue;
+    width: 1000px;
+    height: 1000px;
+    position: fixed;
+}
+
+.something {
+    height:1000px;
+    background-color:red;
+    font-size:36px"
+}
