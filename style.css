@@ -80,12 +80,12 @@ body {
 }
 
 .product {
-  width: 360px;
+  width: 350px;
   display: flex;
   flex-direction: column;
 }
 .product-content {
-  width: 360px;
+  width: 350px;
   background-color: #074b04;
   padding: 24px 16px;
   display: flex;
