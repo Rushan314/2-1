@@ -223,31 +223,31 @@ summary::-webkit-details-marker {
   display: flex;
   flex-direction: column;
 }
-.product_content {
+.product-content {
   background-color: #f8f8f8;
   padding: 24px 16px;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-.product_name {
+.product-name {
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
   color: #000;
 }
-.product_price {
+.product-price {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #f16d7f;
 }
-.product_img {
+.product-img {
   width: 100%;
 }
-.product_text {
+.product-text {
   font-family: "latolight";
   font-style: normal;
   font-weight: 300;
