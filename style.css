@@ -79,9 +79,10 @@ body {
     gap: 20px; 
 
 .product {
-  width: 350px;
-  display: flex;
-  flex-direction: column;
+  flex: 1 1 350px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 10px; 
+    text-align: center; 
 }
 .product-content {
   width: 350px;
