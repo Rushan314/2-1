@@ -73,11 +73,10 @@ body {
 
 
 .product-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
+   display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
 
 .product {
   width: 350px;
